@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WheatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+            <div class="titlu"><p>Vrei sa afli vremea in orasul tau?</p></div>
+                <div class="search">
+                    <input type="text" id="enter"  placeholder="Introdu orasul" spellcheck="false">
+                    <button id="enter1"><img src="/assets/search.png"></button>
+                </div>
+                <div class="error">
+                    <p>Nume de oras invalid</p>
+                </div>
+
+        <div class="weather">
+            <img src="/assets/mist.png" class="weather-icon">
+            <h2 class="city">Bucuresti</h2>
+            <h1 class="temp">22&deg;C</h1>
+            <div class="details">
+                <div class="col"> 
+                    <img src="assets/wind.png" alt="">
+                    <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Vant</p>
+                    </div>
+                    </div>
+                <div class="col">
+                    <img src="/assets/humidity.png">
+                    <div>
+                        <p class="humidity">52 %</p>
+                        <p>Precipitatii</p>
+                    </div>
+                </div>
+                <div class="col">
+                        <img src="/assets/pressure.png">
+                        <div>
+                            <p class="pressure">1007</p>
+                            <p>Presiune</p>
+                        </div>
+                </div>
+                <div class="col">
+                    <img src="/assets/maxTemp.png">
+                    <div>
+                        <p class="max-temp">34&deg;C</p>
+                        <p>Max temp</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="/assets/minTemp.png">
+                    <div>
+                        <p class="min-temp">18&deg;C</p>
+                        <p>Min temp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
